@@ -1,0 +1,37 @@
+Operators : 
+    1. Arithematic Operator : +, -, *, /, %, //; % -> remainder
+    2. Relational Operator : <, >, <=, >=, ==, !=
+    3. Assignment Operator : =, +=, -=, *=, /=, %=
+    4. Logical Operator : and, or, not
+
+And Operation : 
+
+A   B   A and B
+T   T   T
+T   F   F
+F   T   F
+F   F   F
+
+A   B   A or B
+T   T   T
+T   F   T
+F   T   T
+F   F   F
+
+A   Not A
+T   F
+F   T
+
+T -> 1
+F -> 0
+
+((10>30)+20) < (((100-20)*10) > 20000)
+0+20 < (((100-20)*10) > 20000)
+20 < (80*10 > 20000)
+20 < (800 > 20000)
+20 < 0
+False 
+
+
+Assignment : 
+5 + 4 * 9  % (3 + 1) / 6 - 1
