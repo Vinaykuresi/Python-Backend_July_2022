@@ -21,7 +21,12 @@
 
 # for loops : 
 # list, tuple, dictionary, set, string or a range
-
+# {
+#     person_details : {
+#         name : "Vinay",
+#         designation : "SSE"
+#     }
+# }
 # c, c++, java, javascript, go : 
 # for(var i=0; i<limit; i++){
 
@@ -55,10 +60,10 @@
 
 rows = int(input("Enter the No. of Rows : "))
 
-for row in range(rows):
-    for col in range(row+1):
-        print("*", end="")
-    print()
+# for row in range(rows):
+#     for col in range(row+1):
+#         print("*", end="")
+#     print()
 
 '''
     *
@@ -68,18 +73,18 @@ for row in range(rows):
 ***** 
 '''
 
-for row in range(rows):
-    for col in range(rows-row-1):
-        print(" ", end="")
-    for col in range(row+1):
-        print("*", end="")
-    print()
+# for row in range(rows):
+#     for col in range(rows-row-1):
+#         print(" ", end="")
+#     for col in range(row+1):
+#         print("*", end="")
+#     print()
 
-star = "**********"
-for row in range(rows):
-    for col in range(rows-row-1):
-        print(" ", end="")
-    print(star[0:row+1])
+# star = "**********"
+# for row in range(rows):
+#     for col in range(rows-row-1):
+#         print(" ", end="")
+#     print(star[0:row+1])
 
 # Assignment : 
 
@@ -90,3 +95,65 @@ for row in range(rows):
 **
 *
 '''
+
+# for row in range(rows):
+#     for col in range(rows-row):
+#         print("*", end="")
+#     print()
+
+
+
+'''
+        *
+       ***
+      *****
+     *******
+    *********
+'''
+
+for row in range(rows):
+    for col in range(rows-row-1):
+        print(" ", end="")
+    for col in range(2*row+1):
+        print("*", end="")
+    print()
+
+for row in range(1, rows+1):
+    for col in range(rows-row):
+        print(" ", end="")
+    for col in range(2*row-1):
+        print("*", end="")
+    print()
+
+row=0
+col=0
+while(row < rows):
+    while(col <= rows-row-1):
+        print(" ", end="")
+        col += 1
+    col = 0
+    while(col < 2*row+1):
+        print("*", end="")
+        col += 1
+    row += 1
+    col = 0
+    print()
+
+# range :
+range(5)
+range(0, 5)
+>>> num = range(5)
+>>> num
+range(0, 5)
+>>> num[0]
+0
+>>> num[len(num)-1]
+4
+>>> # 0,1,2,3,4
+>>> num[(5-1)]
+4
+
+
+
+
+
