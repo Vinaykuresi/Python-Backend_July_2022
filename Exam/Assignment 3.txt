@@ -1,0 +1,25 @@
+
+1. What are Data types and Operators, 
+   give two examples for each ?
+
+2. What is the answer of the following,
+   ((num2/num3) > 1) or (13-12)<12/3) and ((12+13)%5+10) < 230*num
+   write step by step in a detail ? 
+
+3. Write the code to print traingle pattren :
+   
+   *****
+    ****
+     ***
+      **
+       *
+
+4. Write a program to print the multiples of 5 between 2 to 88.
+   Skip multiples of 10.
+
+5. Write a program to print the Prime numbers between 1 to 77.
+
+6. Write a program to check the temperature : 
+	1) if temperature < 20(included) -> print "cool"
+	2) if temperature between 20(excluded) and 30(included) -> print "Normal"
+	3) if temperature greater than 30 -> print "Hot"
