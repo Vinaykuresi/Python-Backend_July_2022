@@ -23,3 +23,58 @@ range(0, 5)
 1225
 
 
+sample_list = [] -> creating a list
+sample_list = ["Vinay", "Naveen", "Kumar", 2, 3, 4] -> with known size and known elements, and heterogeneous
+sample_list = [None]*5 -> with known size and unknown elements
+len(sample_list) -> Length of List
+
+sample_list = []
+print(type(sample_list))
+
+sample_list = ["Vinay", "Naveen", "Kumar", 2, 3, 4]
+print(sample_list)
+
+sample_list = [None]*10
+print(sample_list)
+sample_list[9] = "Vinay"
+print(sample_list)
+# sample_list[10] = "Kumar"
+# print(sample_list)
+
+print(len(sample_list))
+
+sample_list = []
+print(type(sample_list))
+
+sample_list = ["Vinay", "Naveen", "Kumar", 2, 3, 4]
+print(sample_list)
+
+sample_list = [None]*10
+print(sample_list)
+sample_list[9] = "Vinay"
+print(sample_list)
+# sample_list[10] = "Kumar"
+# print(sample_list)
+
+print(len(sample_list))
+
+# random read
+print(sample_list[9])
+print(sample_list[len(sample_list)-1])
+
+# random write
+sample_list[5] = "Kumar"
+print(sample_list)
+
+sample_list.append("Kuresi")
+print(sample_list)
+
+random = [12, 23, "Garuda"]
+sample_list += random # sample_list = sample_list + random
+print(sample_list)
+
+
+
+
+
+
